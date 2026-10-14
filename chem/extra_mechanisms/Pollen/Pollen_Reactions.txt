@@ -4,6 +4,6 @@
 rcemis(POLLEN_BIRCH,KDIM)              : = POLLEN_BIRCH ;
 rcemis(POLLEN_OLIVE,KDIM)              : = POLLEN_OLIVE ;
 rcemis(POLLEN_ALDER,KDIM)              : = POLLEN_ALDER ;
-rcemis(POLLEN_RWEED,KDIM)              : = POLLEN_RWEED ;
 rcemis(POLLEN_GRASS,KDIM)              : = POLLEN_GRASS ;
+rcemis(POLLEN_RAGWEED,KDIM)            : = POLLEN_RAGWEED ;
 rcemis(POLLEN_MUGWORT,KDIM)            : = POLLEN_MUGWORT ;
