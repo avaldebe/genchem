@@ -1,0 +1,15 @@
+*
+Spec,adv,formula,MW,DRY,WET,Groups,!Comments
+* adv=1 = fast, sent to CM_Reactions1.inc
+* adv=2 = fast, semi-vol
+* adv=3 = slow, sent to CM_Reactions2.inc
+*
+
+* Ash using 7 species
+ASH_1,3,xx,12,PMf,PMf,ASH;ASH_F;PMfine;PM10,,  "!Volcanic ash; fine      < 0.1 um"
+ASH_2,3,xx,12,PMf,PMf,ASH;ASH_F;PMfine;PM10,,  "!Volcanic ash; fine   0.1--0.3 um"
+ASH_3,3,xx,12,PMf,PMf,ASH;ASH_F;PMfine;PM10,,  "!Volcanic ash; fine   0.3--1.0 um"
+ASH_4,3,xx,12,PMf,PMf,ASH;ASH_F;PMfine;PM10,,  "!Volcanic ash; fine   1.0--3.0 um"
+ASH_5,3,xx,12,PMc,PMc,ASH;ASH_C;PMcoarse;PM10,,"!Volcanic ash; coarse 3.0--10. um"
+ASH_6,3,xx,12,PMc,PMc,ASH;ASH_C;PMcoarse;PM10,,"!Volcanic ash; gigant 10.--30. um"
+ASH_7,3,xx,12,PMc,PMc,ASH;ASH_C;PMcoarse;PM10,,"!Volcanic ash; gigant 30.--100 um"
