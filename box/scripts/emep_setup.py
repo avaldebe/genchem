@@ -27,20 +27,20 @@ chemscripts='../../chem/scripts'  # ecosx/chem/scripts directory (do.GenChem)
 # some useful collections
 # Comments: Aqueous_EmChem16x is still standard
 #           Aqueous_EmChem16z uses Fgas(SO2) and still need checking
-common= ' Aqueous_EmChem19c Aero2017nx ShipNOx PM_FFireInert SeaSalt DustExtended Ash7bin PM_WoodFFuelInert EC_ageing' # Most typical EMEP
+common= ' Aqueous_EmChem19c Aero2017nx ShipNOx PM_FFireInert SeaSalt DustExtended Ash2bin PM_WoodFFuelInert EC_ageing' # Most typical EMEP
 # with ResNonRes PM, EC aging moved in PM_ResNonResInert
-commonRNR= ' Aqueous_EmChem19c Aero2017nx ShipNOx PM_FFireInert SeaSalt DustExtended Ash7bin PM_ResNonResInert'
-#commonRNR= ' Aqueous_EmChem19c Aero2017nx ShipNOx PM_FFireInert SeaSalt DustExtended Ash7bin PM_ResNonResInert'
+commonRNR= ' Aqueous_EmChem19c Aero2017nx ShipNOx PM_FFireInert SeaSalt DustExtended Ash2bin PM_ResNonResInert'
+#commonRNR= ' Aqueous_EmChem19c Aero2017nx ShipNOx PM_FFireInert SeaSalt DustExtended Ash2bin PM_ResNonResInert'
 #
 # Oct 2024. Use Aero2024 instead of Aero2017nx
-commonRNR= ' Aqueous_EmChem19c Aero2024 ShipNOx PM_FFireInert SeaSalt DustExtended Ash7bin PM_ResNonResInert'
+commonRNR= ' Aqueous_EmChem19c Aero2024 ShipNOx PM_FFireInert SeaSalt DustExtended Ash2bin PM_ResNonResInert'
 #
 # less common setups:
 dcommon=' Aqueous_EmChem16x Aero2017nx ShipNOx PM_FFireInert SeaSalt Dust BVOC_SQT_NV' # More compact dust
-camscommon=' Aqueous_EmChem16x Aero2017nx Ash7bin ShipNOx PM_FFireInert SeaSalt DustExtended BVOC_SQT_NV'  # No pollen
+camscommon=' Aqueous_EmChem16x Aero2017nx Ash2bin ShipNOx PM_FFireInert SeaSalt DustExtended BVOC_SQT_NV'  # No pollen
 ocommon=' ShipNOx PM_FFireInert SeaSalt DustExtended Pollen' # Added pollen and extended dust
-fcommon=' Aqueous_EmChem16x Aero2017nx Ash7bin ShipNOx PM_FFireInert SeaSalt DustExtended Pollen BVOC_SQT_NV'
-ncommon=' Aqueous_EmChem16x Aero2017nx Ash7bin ShipNOx FFireInert16z SeaSalt DustExtended16z Pollen'
+fcommon=' Aqueous_EmChem16x Aero2017nx Ash2bin ShipNOx PM_FFireInert SeaSalt DustExtended Pollen BVOC_SQT_NV'
+ncommon=' Aqueous_EmChem16x Aero2017nx Ash2bin ShipNOx FFireInert16z SeaSalt DustExtended16z Pollen'
 
 # Many schemes use common + same BVOC options. We add
 # IsoMT1 adds code for BVOC_SQT_NV, isoprene and apinene as surrogate for all monoterpenes
