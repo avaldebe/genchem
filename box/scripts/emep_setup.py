@@ -87,6 +87,7 @@ cmdx['EmChem19rcp'] ='-b EmChem19c -e PM_VBS_EmChem19 ' + common_RNR + ' Pollen'
 
 commonRNRn2o5= ' Aqueous_EmChem19c Aero2026 ClNO2 ShipNOx PM_FFireInert SeaSalt DustExtended Ash2bin PM_ResNonResInert BVOC_SQT_NV BVOC_IsoMT1_emis'
 cmdx['EmChem26']  ='-o EmChem26 -b EmChem19c -e PM_VBS_EmChem19 ' + commonRNRn2o5
+cmdx['EmChem26p']  ='-o EmChem26 -b EmChem19c -e PM_VBS_EmChem19 ' + commonRNRn2o5 + ' Pollen'
 
 # EmChem26 with f suffix for Fungal spores species (primary biogenic aerosol particles)
 cmdx['EmChem26f']  ='-o EmChem26f -b EmChem19c -e PM_VBS_EmChem19 ' + commonRNRn2o5 + ' PBAP'
